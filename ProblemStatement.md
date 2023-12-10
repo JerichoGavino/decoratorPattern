@@ -16,6 +16,23 @@ The GSave account offers an interest rate of 2.5%. Benefits include the "Standar
 
 The UpSave account offers the highest interest rate of 4.0%. Benefits include the "Standard Savings Account" plus "with Insurance".
 
+## Description
+
+This project includes the following methods:
+
+- `showAccountType()` - Either returns "Savings Account", "GSave" or "UpSave"
+- `getInterestRate()` - Either returns 1% for Savings Account; 2.5% for GSave; 4.0% UpSave
+- `getBalance()` - Returns the balance of the account set.
+- `showBenefits()` - Either returns "Standard Savings Account" for Savings Account; benefits offered by savings account + "GSave Transfer"; benefits offered by savings account + "With Insurance";
+- `computeBalanceWithInterest()` - returns new balance by computing the balance plus the interest depending on the interest rate.
+- `showInfo()` - Returns details of account number, account name, and balance.
+
+`BankAcountDecorator` must be an interface.
+
+## Instructions
+
+Follow the instructions provided. You are not allowed to insert other methods except what is stated in the diagram (setters and getters are allowed).
+
 ## Cimb.java
 
 The content of your `Cimb.java` should ONLY contain the following codes with the exception of inserting your own package name:
@@ -56,18 +73,3 @@ public class Cimb {
 		System.out.println("Benefits: " + upSave.showBenefits());
 	}
 }
-
-## Description of the following methods
-
-- `showAccountType()` - Either returns "Savings Account", "GSave" or "UpSave"
-- `getInterestRate()` - Either returns 1% for Savings Account; 2.5% for GSave; 4.0% UpSave
-- `getBalance()` - Returns the balance of the account set.
-- `showBenefits()` - Either returns "Standard Savings Account" for Savings Account; benefits offered by savings account + "GSave Transfer"; benefits offered by savings account + "With Insurance";
-- `computeBalanceWithInterest()` - returns new balance by computing the balance plus the interest depending on the interest rate.
-- `showInfo()` - Returns details of account number, account name, and balance.
-
-`BankAcountDecorator` must be an interface.
-
-## Instructions
-
-Follow the instructions provided. You are not allowed to insert other methods except what is stated in the diagram (setters and getters are allowed).
