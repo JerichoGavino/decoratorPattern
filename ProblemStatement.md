@@ -16,7 +16,7 @@ The GSave account offers an interest rate of 2.5%. Benefits include the "Standar
 
 The UpSave account offers the highest interest rate of 4.0%. Benefits include the "Standard Savings Account" plus "with Insurance".
 
-## Code Example
+## Cimb.java
 
 The content of your `Cimb.java` should ONLY contain the following codes with the exception of inserting your own package name:
 
